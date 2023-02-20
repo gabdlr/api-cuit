@@ -1,0 +1,25 @@
+{
+  "name": "afip-sociedades-api",
+  "version": "1.0.0",
+  "description": "Scraper de registro de sociedades que sirve una api con los datos en formato JSON",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc --build && node ./build/server.js",
+    "dev": "node --watch ./build/server.js",
+    "build": "npx tsc --build"
+  },
+  "keywords": [
+    "afip",
+    "api",
+    "sociedades"
+  ],
+  "author": "Gabriel De Los Rios",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
